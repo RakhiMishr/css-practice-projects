@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: 1em sans-serif;
+
+}
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: relative;
+}
+.icon {
+    width: 30px;
+    height: 70px;
+    position: relative;
+    float: left;
+
+}
+.loge {
+    color: rgb(201, 52, 15);
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-left: 2px;
+    padding-top: 10px;
+}
+
+.mamul {
+    width: 100%;
+background-color: chocolate;
+    height: 70px;
+
+}
+ul {
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+ul li {
+    
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 62px;
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: red;
+    font-family: sans-serif;
+    font-weight: bold;
+    /* transition: 0.4s  ease-in-out; */
+
+}
+ a:hover {
+    color: green !important;
+    
+}
+.search {
+    width: 30px;
+    float: left;
+
+background: transparent;
+    
+    margin-left: 140px;
+}
+.srch {
+    font-family: sans-serif;
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orangered;
+    margin-top: 13px;
+    color: orangered;
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.srch:hover {
+    width: 170px;
+    transition: 0.4s ease-in-out;
+}
+.img{
+    width: 10vh;
+    height: 10vh;
+    margin-top:3px;
+    margin-left: 45vh;
+    
+}
+
+
+.card-item {
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.card-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.card-item h5{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+    color: #555559;
+}
+
+.btn {
+    width: 10vh;
+    height: 6vh;
+    background-color: orangered;
+    border: 2px solid orangered;
+    margin-top: 13px;
+    color: aliceblue;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.rkm {
+    width: 100%;
+    height: 400px;
+    background-color: #737578;
+    border: 2px solid #ccc;
+    position: relative;
+    display: flex;
+}
+
+
+section .rkm1.rkm2 .rkm3 .rkm4 .rkm5 .rkm6 .rkm7 .rkm8 {
+    width: 100%;
+    height: 200px;
+    background-color: #737578;
+    border: 2px solid #ccc;
+    margin: 20px;
+    display: flex;
+    
+}
